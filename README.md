@@ -1,17 +1,17 @@
 # CRUD de GESTIÓN de SAIs
 
-# Página inicial (read)
+ <b>Página inicial (read)</b>
 
 <img src="capturas/principal.jpg" />
 
-# Modificar (update)
+ <b>Modificar (update)</b>
 
 <img src="capturas/modificar.jpg" />
 
-# Añadir (create)
+ <b>Añadir (create)</b>
 
 <img src="capturas/anadir.jpg" />
 
-# Eliminar (delete)
+ <b>Eliminar (delete)</b>
 
 <img src="capturas/eliminar.jpg" />
