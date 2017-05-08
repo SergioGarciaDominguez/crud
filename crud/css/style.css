@@ -1,0 +1,249 @@
+body {
+  background-color: #d0ead0;
+}
+
+h1 {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.wrapper {
+  border: 1px solid #bbf;
+  border-radius: 12px;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.header {
+  background-color: #efe;
+  border-bottom: 1px solid #bbf;
+  border-radius: 11px 11px 0 0;
+  height: 68px;
+  margin: 0;
+  padding: auto 15px;
+  z-index: 1000;
+}
+
+.logo {
+  height: 50px;
+  margin: 9px 5px 9px 45px;
+  float: left;
+  position: relative;
+}
+
+.title {
+  color: #050;
+  float: left;
+  margin: 8px auto;
+  position: relative;
+  text-align: center;
+  width: 80%;
+}
+
+.title > h1, .title > span {
+  margin: auto;
+}
+
+.content {
+  background-color: #fff;
+  padding: 15px;
+}
+
+
+#tabla {
+  margin: 25px auto;
+  text-align: center;
+  width: 97%;
+}
+
+#tabla th {
+  background-color: #eef5ee;
+}
+
+#tabla tr:first-child {
+  border: 1px solid #bbf;
+}
+
+#tabla tr:hover {
+  background-color: #efe;
+}
+
+#tabla th, #tabla td {
+  border: 1px solid #bbf;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+#tabla a {
+  color: #005;
+}
+
+#tabla input {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: unset;
+}
+
+
+#respuesta {
+  border: 1px solid #bbf;
+  display: none;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.respuesta {
+  background-color: #eee;
+  padding: 15px;
+}
+
+.respuesta span {
+  font-size: 18px;
+}
+
+#f-create {
+  margin-left: 20px;
+}
+
+#f-create label:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#detalle {
+  background-color: #eef5ee;
+  border: 1px solid #bbf;
+  border-radius: 6px;
+  display: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 550px;
+  position: relative;
+}
+
+#mensaje-eliminar {
+  display: none;
+}
+
+#d-respuesta {
+  display: none;
+}
+
+.d-aviso {
+  display:none;
+  height: 12px;
+}
+
+.d-aviso > span {
+  color: red;
+  font-size: 9px;
+  float: right;
+  width: 65%;
+}
+
+#detalle > fieldset > div, #d-fecha {
+  margin: 5px auto;
+}
+
+#detalle > fieldset > div > label {
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 4px;
+  width: 30%;
+}
+
+#d-fecha > legend {
+  display: inline-block !important;
+  float: left;
+  font-weight: bold;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 30%;
+}
+
+#detalle > fieldset > div > input {
+  display: inline-block;
+  width: 65%;
+}
+
+#d-fecha > div {
+  display: inline-block;
+  width: 32.7%;
+}
+
+#d-fecha > div > input {
+  display: inline-block;
+  width: 95%;
+}
+
+#detalle > fieldset > input, #detalle button {
+  display: inline-block;
+  float: right;
+  margin-top: 8px;
+  margin-right: 11px;
+  width: 20%;
+}
+
+#detalle > fieldset > a {
+  color: #000;
+}
+
+#d-cancel, #e-cancel, .d-submit {
+  height: 26px;
+  margin-bottom: 5px;
+}
+
+#e-cancel{
+  color: black;
+  margin-right: 5px;
+}
+
+.d-submit {
+  font-weight: bold;
+}
+
+
+.footer {
+  background-color: #efe;
+  border-radius: 0 0 11px 11px;
+  border-top: 1px solid #bbf;
+  color: #565;
+  height: 45px;
+  padding: 15px;
+}
+
+@media (max-width: 980px) {
+
+  .wrapper {
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .header, .footer {
+    border: 0;
+    border-radius: 0;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+}
+
+@media (max-width: 759px) {
+
+}
+
+@media (max-width: 579px) {
+
+
+
+
+}
+
+@media (max-width: 441px) {
+
+
+
+}
